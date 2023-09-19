@@ -1,0 +1,1 @@
+# a testcase of Motoko compiler failure

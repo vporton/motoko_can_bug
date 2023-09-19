@@ -1,0 +1,23 @@
+{
+  "canisters": {
+    "order": {
+      "main": "src/backend/order.mo",
+      "type": "motoko",
+      "dependencies": [
+        "NacDBIndex"
+      ]
+    },
+    "NacDBIndex": {
+      "main": "src/backend/NacDBIndex.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": "vessel sources"
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
